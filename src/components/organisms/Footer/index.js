@@ -1,5 +1,5 @@
 import React from 'react'
-import { Img } from '../../atoms'
+// import { Img } from '../../atoms'
 
 const Footer = () => {
     return (

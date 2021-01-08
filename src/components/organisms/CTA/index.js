@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'react-router-dom'
 
 const Cta = () => {
     return (
@@ -10,14 +11,14 @@ const Cta = () => {
                 </h2>
                 <div className="mt-8 lex lg:mt-0 lg:flex-shrink-0">
                 <div className="inline-flex rounded-md shadow">
-                    <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+                    <Link to="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
                     Daftar
-                    </a>
+                    </Link>
                 </div>
                 <div className="ml-3 inline-flex rounded-md shadow">
-                    <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+                    <Link to="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
                     Informasi
-                    </a>
+                    </Link>
                 </div>
                 </div>
             </div>
